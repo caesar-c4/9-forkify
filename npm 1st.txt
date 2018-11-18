@@ -1,0 +1,186 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+F:\9-forkify>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (9-forkify)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to F:\9-forkify\package.json:
+
+{
+  "name": "9-forkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes)
+
+F:\9-forkify>npm install webpack --save-dev
+npm notice created a lockfile as package-lock.json. You should commit this file.
+
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ webpack@4.25.1
+added 383 packages in 74.154s
+
+F:\9-forkify>npm install jquery --save
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ jquery@3.3.1
+added 69 packages in 10.664s
+
+F:\9-forkify>npm uninstall jquery --save
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
+added 68 packages and removed 1 package in 9.483s
+
+F:\9-forkify>npm install live-server --global
+npm WARN notice [SECURITY] debug has the following vulnerability: 1 low. Go here
+ for more details: https://nodesecurity.io/advisories?search=debug&version=2.2.0
+ - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` t
+o get more info.
+C:\Users\ASUS\AppData\Roaming\npm\live-server -> C:\Users\ASUS\AppData\Roaming\n
+pm\node_modules\live-server\live-server.js
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\liv
+e-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ live-server@1.2.0
+added 304 packages in 39.347s
+
+F:\9-forkify>npm install webpack-cli
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ webpack-cli@3.1.2
+added 138 packages in 27.43s
+
+F:\9-forkify>npm install webpack-dev-server --save-dev
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ webpack-dev-server@3.1.10
+added 197 packages in 56.206s
+
+F:\9-forkify>npm install html-webpack-plugin --save-dev
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ html-webpack-plugin@3.2.0
+added 118 packages in 24.519s
+
+F:\9-forkify>npm install html-webpack-plugin --save-dev
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ html-webpack-plugin@3.2.0
+added 68 packages and updated 1 package in 12.524s
+
+F:\9-forkify>npm install babel-core babel-preset-env babel-loader --save-dev
+npm WARN babel-loader@8.0.4 requires a peer of @babel/core@^7.0.0 but none is in
+stalled. You must install peer dependencies yourself.
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ babel-loader@8.0.4
++ babel-core@6.26.3
++ babel-preset-env@1.7.0
+added 158 packages in 39.807s
+
+F:\9-forkify>npm install babel-polyfill --save
+npm WARN babel-loader@8.0.4 requires a peer of @babel/core@^7.0.0 but none is in
+stalled. You must install peer dependencies yourself.
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ babel-polyfill@6.26.0
+added 70 packages in 16.619s
+
+F:\9-forkify>npm install axios --save
+npm WARN babel-loader@8.0.4 requires a peer of @babel/core@^7.0.0 but none is in
+stalled. You must install peer dependencies yourself.
+npm WARN 9-forkify@1.0.0 No description
+npm WARN 9-forkify@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ axios@0.18.0
+added 69 packages in 22.066s
+
+F:\9-forkify>
